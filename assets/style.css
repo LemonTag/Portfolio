@@ -23,8 +23,10 @@ nav{
 /* This is my Keegan title */
 h1{
     color: white;
+     font-size: 30px;
+     border: 10px;
+     background-color: blueviolet;
 
-    font-size: 30px;
 }
 
 
@@ -36,14 +38,24 @@ h3{
 
 /* Making a vertical line */
 .vi {
+   display: inline-block;
     border-left: 6px solid green;
     height: 500px;
     position: absolute;
-    left: 50;
-    margin-left: -3px;
+    margin-left: 150px;
     top: 0;
-}
+} 
 p{
     color: green;
     font-family: sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-self: center;
+}
+section{
+    background-color: gray;
+    width: 120px;
+    border: 0px solid green;
+    padding: 10px;
+    margin: 0px;
 }
