@@ -1,16 +1,19 @@
 body {
     background-color: white;
+    font-family: sans-serif;
 }
 
 /* My first header */
 header {
     background-color: blue;
+    font-family: sans-serif;
 }
 /* This is my contact me and others in the header */
 a{
     color: black;
 }
 
+/* Helped me moved them into a row but not to the right at the moment */
 nav{
     display: flex;
     justify-self: flex-end;
@@ -20,5 +23,27 @@ nav{
 /* This is my Keegan title */
 h1{
     color: white;
+
     font-size: 30px;
+}
+
+
+/* This is the paragraph about me */
+h3{
+    font-family: sans-serif;
+    color: red;
+}
+
+/* Making a vertical line */
+.vi {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50;
+    margin-left: -3px;
+    top: 0;
+}
+p{
+    color: green;
+    font-family: sans-serif;
 }
