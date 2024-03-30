@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+}
+
+/* My first header */
+header {
+    background-color: blue;
+}
+/* This is my contant me and others in the header */
+a{
+    color: black;
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: row;
+}
+
+/* This is my portfolio title */
+h1{
+    color: white;
+}
