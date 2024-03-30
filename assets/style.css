@@ -6,15 +6,19 @@ body {
 header {
     background-color: blue;
 }
-/* This is my contant me and others in the header */
+/* This is my contact me and others in the header */
 a{
     color: black;
+}
+
+nav{
     display: flex;
     justify-self: flex-end;
     flex-direction: row;
 }
 
-/* This is my portfolio title */
+/* This is my Keegan title */
 h1{
     color: white;
+    font-size: 30px;
 }
