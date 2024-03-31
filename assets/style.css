@@ -22,12 +22,14 @@ nav{
     padding: 0px 10px;
 }
 
-/* This is my Header title */
+/* This is my Header title and my links */
 h1{
     color: white;
      font-size: 30px;
      border: 10px;
      background-color: blueviolet;
+     margin: 0px;
+     padding: 0px;
 
 }
 
@@ -58,8 +60,6 @@ p{
     font-size: 25px;
     display: flex;
     text-align: center;
-    position: absolute;
-   float: right;
    margin-left: 300px;
 
 }
@@ -84,9 +84,52 @@ h4 {
 
 }
 
-li {
-    display: inline block;
-    margin: 0px;
-    padding: 0px;
+
+/* I made a box at the moment it is at the wrong area */
+#box{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 100px;
 }
 
+/* I made a green box at the moment */
+.green{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 500px;
+}
+
+/* I made a blue box at the moment */
+.blue{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 650px;
+}
+
+
+/* I made a red box at the moment */
+.red{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 800px;
+}
