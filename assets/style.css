@@ -8,14 +8,15 @@ header {
     background-color: blue;
     font-family: sans-serif;
 }
+
 /* This is my contact me and others in the header */
-a{
+a {
     color: black;
 }
 
 /* Helped me moved them into a row but not to the right at the moment */
 /* Padding to move them to the left a bit and not touching the side of the screen */
-nav{
+nav {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
@@ -23,62 +24,53 @@ nav{
 }
 
 /* This is my Header title and my links */
-h1{
+h1 {
     color: white;
-     font-size: 30px;
-     border: 10px;
-     background-color: blueviolet;
-     margin: 0px;
-     padding: 0x;
-     
-
+    font-size: 30px;
+    border: 10px;
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0x;
 }
 
 /* This is Header of About me */
-h3{
+h3 {
     font-family: sans-serif;
     color: black;
     padding: 5px;
-    font-size:50px;
+    font-size: 50px;
     margin: 10px;
     display: inline-block;
     border-right: 6px solid green;
     top: 0;
-    width: 20%;
-
-
 }
 
 
 /* This is the Header of My contact */
-h6
-{
+h6 {
     font-family: sans-serif;
     color: black;
     padding: 5px;
-    font-size:50px;
+    font-size: 50px;
     display: flex;
     margin: 10px;
     display: inline-block;
     border-right: 6px solid green;
     top: 0;
-
 }
 
-p{
+/* This is where my paragraphs are  */
+p {
     color: black;
     font-family: sans-serif;
     font-size: 25px;
     display: flex;
-   margin-left: 300px;
-   background-color: darkgray;
-   padding-right: 45%;
- 
-
+    margin-left: 30px;
+    padding-right: 0%;
 }
 
 /* This is for Keegan */
-section{
+section {
     background-color: gray;
     width: 120px;
     border: 0px solid green;
@@ -91,17 +83,16 @@ h4 {
     font-family: sans-serif;
     color: black;
     padding: 5px;
-    font-size:50px;
+    font-size: 50px;
     margin: 10px;
     display: inline-block;
     border-right: 6px solid green;
     top: 0;
-
 }
 
 
 /* Made a footer and put the postion of it here */
-footer{
+footer {
     padding: 700px;
     font-family: sans-serif;
     text-align: center;
@@ -109,16 +100,14 @@ footer{
 }
 
 /* Here is the footer font size */
-footer h5{
+footer h5 {
     font-size: 30px;
 }
 
 /* /*I made boxes around my text  */
-.container{
+.container {
+    display: flex;
     border: 1px solid black;
     padding: 10px;
-    margin: 10px;
-} 
-
-
-    
+    margin: 0px;
+}
