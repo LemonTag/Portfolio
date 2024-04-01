@@ -87,8 +87,8 @@ h4 {
 
 /* I made a box at the moment it is at the wrong area */
 #box{
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     padding: 5px;
     background-color: cornflowerblue;
     display: flex;
@@ -99,8 +99,8 @@ h4 {
 
 /* I made a green box at the moment */
 .green{
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     padding: 5px;
     background-color: green;
     display: flex;
@@ -111,25 +111,38 @@ h4 {
 
 /* I made a blue box at the moment */
 .blue{
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     padding: 5px;
     background-color: lightblue;
     display: flex;
     flex-direction: row;
     position: absolute;
     left: 650px;
+    border-style: solid green; 
 }
 
 
 /* I made a red box at the moment */
 .red{
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     padding: 5px;
     background-color: red;
     display: flex;
     flex-direction: row;
     position: absolute;
     left: 800px;
+}
+
+
+footer{
+    padding: 700px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+}
+
+footer h5{
+    font-size: 30px;
 }
