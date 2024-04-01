@@ -93,15 +93,17 @@ h4 {
 
 /* Made a footer and put the postion of it here */
 footer {
-    padding: 700px;
     font-family: sans-serif;
-    text-align: center;
-    display: flex;
+    color: black;
+    font-size: 25px;
+    display: flex;    
 }
 
-/* Here is the footer font size */
-footer h5 {
-    font-size: 30px;
+
+h7{
+    font-size: 50px;
+    display: inline-block;
+    border-right: 6px solid green;
 }
 
 /* /*I made boxes around my text  */
@@ -111,3 +113,12 @@ footer h5 {
     padding: 10px;
     margin: 0px;
 }
+
+.img {
+    background: #eaeaed;
+    border: 1px solid #9799a7;
+    float: right;
+    margin: 8px 0 0 20px;
+    padding: 4px;
+}
+
