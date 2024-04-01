@@ -29,7 +29,7 @@ h1{
      border: 10px;
      background-color: blueviolet;
      margin: 0px;
-     padding: 0px;
+     padding: 0x;
      
 
 }
@@ -38,15 +38,14 @@ h1{
 h3{
     font-family: sans-serif;
     color: black;
-    margin-bottom: 0px;
     padding: 5px;
     font-size:50px;
-    display: flex;
     margin: 10px;
     display: inline-block;
     border-right: 6px solid green;
-    height: 100px;
     top: 0;
+    width: 20%;
+
 
 }
 
@@ -56,14 +55,12 @@ h6
 {
     font-family: sans-serif;
     color: black;
-    margin-bottom: 0px;
     padding: 5px;
     font-size:50px;
     display: flex;
     margin: 10px;
     display: inline-block;
     border-right: 6px solid green;
-    height: 100px;
     top: 0;
 
 }
@@ -73,9 +70,9 @@ p{
     font-family: sans-serif;
     font-size: 25px;
     display: flex;
-    text-align: center;
    margin-left: 300px;
    background-color: darkgray;
+   padding-right: 45%;
  
 
 }
@@ -93,14 +90,11 @@ section{
 h4 {
     font-family: sans-serif;
     color: black;
-    margin-bottom: 0px;
     padding: 5px;
     font-size:50px;
-    display: flex;
     margin: 10px;
     display: inline-block;
     border-right: 6px solid green;
-    height: 100px;
     top: 0;
 
 }
