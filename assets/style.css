@@ -33,15 +33,33 @@ h1{
 
 }
 
-/* This is the paragraph about me */
+/* This is Header of About me */
 h3{
     font-family: sans-serif;
     color: white;
     margin-bottom: 0px;
-    padding: 10px;
-    height: 15px;
+    padding: 5px;
+    height: 50px;
     background-color: blue;
+    font-size:50px;
+    display: flex;
+    margin: 10px;
 
+}
+
+
+/* This is the Header of My contact */
+h6
+{
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 0px;
+    padding: 5px;
+    height: 50px;
+    background-color: blue;
+    font-size:50px;
+    display: flex;
+    margin: 10px;
 }
 
 /* Making a vertical line */
@@ -53,7 +71,7 @@ h3{
     margin-left: 150px;
     top: 0;
 } 
-/* P is for my phargraph for my about me */
+/* P is for my phargraph for all my text */
 p{
     color: black;
     font-family: sans-serif;
@@ -85,56 +103,6 @@ h4 {
 }
 
 
-/* I made a box at the moment it is at the wrong area */
-#box{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    background-color: cornflowerblue;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 100px;
-}
-
-/* I made a green box at the moment */
-.green{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    background-color: green;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 500px;
-}
-
-/* I made a blue box at the moment */
-.blue{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    background-color: lightblue;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 650px;
-    border-style: solid green; 
-}
-
-
-/* I made a red box at the moment */
-.red{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 800px;
-}
-
 /* Made a footer and put the postion of it here */
 footer{
     padding: 700px;
@@ -153,4 +121,9 @@ footer h5{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+    
 }
+
+
+    
+    
