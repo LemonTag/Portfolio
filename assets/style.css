@@ -135,7 +135,7 @@ h4 {
     left: 800px;
 }
 
-
+/* Made a footer and put the postion of it here */
 footer{
     padding: 700px;
     font-family: sans-serif;
@@ -143,6 +143,14 @@ footer{
     display: flex;
 }
 
+/* Here is the footer font size */
 footer h5{
     font-size: 30px;
+}
+
+/* I made boxes around my text  */
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
 }
