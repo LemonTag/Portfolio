@@ -27,13 +27,19 @@ a {
 
 }
 
-a:hover {
+/* a:visited{
+    color: purple;
+} */
+   
+
+a:hover a:focus{
     color: red;
 }
 
-/* a:visited{
 
-} */
+a:active{
+    color: aquamarine;
+}
 
 
 
