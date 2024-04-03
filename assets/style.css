@@ -108,8 +108,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    border: 1px solid black;
+    text-align: center;
     padding: 10px;
     margin: 0px;
     background-image: url("./Background.webp");
@@ -127,6 +126,27 @@ div {
 /* This is the image of my profile */
 
 
-.Me:hover{
+.grid:hover{
    color: gray
+}
+
+.grid{
+display: inline-block;
+flex-wrap: wrap;
+border: 1px solid grey;
+margin: 5px;
+padding: 0px;
+/* width: 200px; */
+
+background-image: url("./Background.webp");
+background-size: cover;
+background-blend-mode: multiply;
+background-color: lightgreen;
+background-repeat: repeat-y, no-repeat;
+}
+
+
+.grid img{
+    width: 100%;
+    height: auto;
 }
